@@ -1,0 +1,72 @@
+body{
+    color: white;
+    font-size: 14px;
+    
+}
+
+header, main, footer {
+    background-color: #290001;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+ul {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  list-style-type: none;
+  margin: 0;
+}
+
+
+.logo { 
+    font-size: 24px;
+    display: flex;
+    align-items: flex-start;
+    padding: 8px;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.bean-img {
+    max-width: 400px;
+    display: flex;
+    padding: 30px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px;
+    
+}
+
+button {
+    cursor: pointer;
+    padding: 7px 20px;
+    border-radius: 8px;
+    background-color: #ffefd5;
+    
+}
+
+.strong {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+ 
