@@ -1,6 +1,7 @@
 body{
     color: white;
     font-size: 14px;
+    font-family: Papyrus, Herculanum, Party LET, Curlz MT, Harrington, fantasy;
     
 }
 
@@ -50,9 +51,10 @@ ul {
 }
 
 .info {
+    font-size: 18px;
     display: flex;
     flex-wrap: wrap;
-    padding: 8px;
+    padding: 40px;
     
 }
 
@@ -69,4 +71,44 @@ button {
     font-weight: 900;
 }
 
- 
+ .type {
+    background-color: #ddd3ca;
+    color: black;
+    display: flex;
+    padding: 60px;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
+
+ }
+ .type-header {
+    font-size: 36px;
+    padding:  30px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: #ddd3ca;
+ }
+
+.coffee-type{
+ max-width: 200px;
+}
+
+ .coffee-img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 8px;
+
+ }
+
+ .costumer {
+    background-color: #836953;
+    padding:  60px 300px;
+    font-size: 30px;
+    font-weight: 100;
+    font-style: italic;
+ }
+ .from {
+    display: flex;
+    justify-content: flex-end;
+ }
